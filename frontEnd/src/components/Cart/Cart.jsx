@@ -67,7 +67,7 @@ const Cart = () => {
         <div className="item" key={item.id}>
           {/* <img src={process.env.REACT_APP_UPLOAD_URL + item.img} alt="" /> */}
           <img
-            src="https://images.pexels.com/photos/818992/pexels-photo-818992.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            src=""
             alt=""
           />
           <div className="details">
