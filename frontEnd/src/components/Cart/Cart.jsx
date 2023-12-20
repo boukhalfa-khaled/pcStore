@@ -12,20 +12,20 @@ const Cart = () => {
   const data = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/818992/pexels-photo-818992.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      img2: "https://images.pexels.com/photos/1163194/pexels-photo-1163194.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      title: "Long Sleeve Graphic T-shirt",
-      desc: "Long Sleeve Graphic T-shirt",
+      img: "",
+      img2: "",
+      title: "",
+      desc: "",
       isNew: true,
       oldPrice: 19,
       price: 12,
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/2036646/pexels-photo-2036646.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      img2: "https://images.pexels.com/photos/1163194/pexels-photo-1163194.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      title: "Long Sleeve Graphic T-shirt",
-      desc: "Long Sleeve Graphic T-shirt",
+      img: "",
+      img2: "",
+      title: "",
+      desc: "",
       isNew: true,
       oldPrice: 19,
       price: 12,
@@ -67,7 +67,7 @@ const Cart = () => {
         <div className="item" key={item.id}>
           {/* <img src={process.env.REACT_APP_UPLOAD_URL + item.img} alt="" /> */}
           <img
-            src="https://images.pexels.com/photos/818992/pexels-photo-818992.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            src=""
             alt=""
           />
           <div className="details">
